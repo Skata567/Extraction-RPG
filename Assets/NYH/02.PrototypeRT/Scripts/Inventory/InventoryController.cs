@@ -7,11 +7,23 @@ namespace PrototypeRT
     [RequireComponent(typeof(InventoryHighlight))]
     public class InventoryController : MonoBehaviour
     {
+        [Header("디버그 아이템")]
+        [Tooltip("테스트 키로 인벤토리에 넣을 아이템 목록입니다. 실제 플레이 드랍과는 별개입니다.")]
         [SerializeField] private List<ItemData> debugItems = new();
-        [SerializeField] private InventoryItem itemPrefab;
-        [SerializeField] private Transform canvasTransform;
-        [SerializeField] private PlayerEquipment playerEquipment;
+
+        [Tooltip("W 키로 debugItems 중 하나를 인벤토리에 넣을지 정합니다. 테스트용이므로 빌드 전에는 꺼두는 것을 권장합니다.")]
         [SerializeField] private bool enableDebugInsertKey;
+
+        [Header("UI 프리팹")]
+        [Tooltip("인벤토리 칸에 생성될 아이템 UI 프리팹입니다. InventoryItem 컴포넌트와 Image가 붙은 프리팹을 넣어야 합니다.")]
+        [SerializeField] private InventoryItem itemPrefab;
+
+        [Tooltip("아이템 UI를 생성할 Canvas Transform입니다. 비워두면 부모 Canvas를 자동으로 찾습니다.")]
+        [SerializeField] private Transform canvasTransform;
+
+        [Header("플레이어 장비 연결")]
+        [Tooltip("아이템 더블클릭으로 무기를 장착할 대상입니다. 비워두면 씬에서 PlayerEquipment를 자동으로 찾습니다.")]
+        [SerializeField] private PlayerEquipment playerEquipment;
 
         private ItemGrid _selectedGrid;
         private InventoryItem _selectedItem;
@@ -19,6 +31,7 @@ namespace PrototypeRT
         private RectTransform _dragRect;
         private InventoryHighlight _inventoryHighlight;
         private readonly List<InventoryItem> _items = new();
+        private bool _isPointerInputBlocked;
 
         public event Action OnInventoryChanged;
         public event Action<InventoryItem> OnItemAdded;
@@ -42,11 +55,19 @@ namespace PrototypeRT
                 canvasTransform = GetComponentInParent<Canvas>()?.transform;
             if (playerEquipment == null)
                 playerEquipment = FindFirstObjectByType<PlayerEquipment>();
+            if (_selectedGrid == null)
+                SelectedGrid = ResolveItemGrid();
         }
 
         private void Update()
         {
             DragSelectedItemIcon();
+
+            if (_isPointerInputBlocked)
+            {
+                _inventoryHighlight.Show(false);
+                return;
+            }
 
             if (enableDebugInsertKey && Input.GetKeyDown(KeyCode.W))
                 InsertRandomDebugItem();
@@ -66,7 +87,7 @@ namespace PrototypeRT
         public bool TryAddItem(ItemData itemData)
         {
             if (_selectedGrid == null)
-                _selectedGrid = FindFirstObjectByType<ItemGrid>();
+                SelectedGrid = ResolveItemGrid();
 
             if (_selectedGrid == null || itemPrefab == null || canvasTransform == null || itemData == null)
             {
@@ -92,7 +113,7 @@ namespace PrototypeRT
         public bool TryRemoveItem(InventoryItem item)
         {
             if (item == null) return false;
-            ItemGrid targetGrid = _selectedGrid != null ? _selectedGrid : FindFirstObjectByType<ItemGrid>();
+            ItemGrid targetGrid = _selectedGrid != null ? _selectedGrid : ResolveItemGrid();
             if (targetGrid == null)
             {
                 Debug.LogError("InventoryController: 아이템을 제거할 인벤토리 그리드를 찾을 수 없습니다.");
@@ -111,11 +132,49 @@ namespace PrototypeRT
             return true;
         }
 
+        public InventoryItem CreateItemView(ItemData itemData, Transform parent, bool playerOwned)
+        {
+            if (itemPrefab == null || itemData == null || parent == null)
+            {
+                Debug.LogError("InventoryController: 아이템 UI 뷰를 만들기 위한 Prefab, ItemData, Parent 연결을 확인해야 합니다.");
+                return null;
+            }
+
+            InventoryItem item = Instantiate(itemPrefab, parent);
+            item.Set(itemData, playerOwned ? this : null, playerOwned ? playerEquipment : null);
+            return item;
+        }
+
+        public void SetPointerInputBlocked(bool value)
+        {
+            _isPointerInputBlocked = value;
+            if (!value) return;
+
+            _selectedItem = null;
+            _overlapItem = null;
+            _dragRect = null;
+            _inventoryHighlight.Show(false);
+        }
+
         private InventoryItem CreateInventoryItem(ItemData itemData)
         {
-            InventoryItem item = Instantiate(itemPrefab, canvasTransform);
-            item.Set(itemData, this, playerEquipment);
-            return item;
+            return CreateItemView(itemData, canvasTransform, true);
+        }
+
+        private ItemGrid ResolveItemGrid()
+        {
+            ItemGrid activeGrid = FindFirstObjectByType<ItemGrid>();
+            if (activeGrid != null) return activeGrid;
+
+            // 인벤토리 패널이 닫힌 상태에서도 월드 아이템 획득은 가능해야 하므로 비활성 UI까지 찾는다.
+            ItemGrid[] allGrids = Resources.FindObjectsOfTypeAll<ItemGrid>();
+            foreach (ItemGrid grid in allGrids)
+            {
+                if (grid == null || !grid.gameObject.scene.IsValid()) continue;
+                return grid;
+            }
+
+            return null;
         }
 
         private void HandleLeftClick()

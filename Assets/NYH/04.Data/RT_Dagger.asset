@@ -15,8 +15,8 @@ MonoBehaviour:
   itemName: Dagger
   width: 1
   height: 2
-  itemIcon: {fileID: -2502435351757049404, guid: e1b69054c69ffdd4ea4624c0655d1a08, type: 3}
-  weaponWorldSprite: {fileID: -2502435351757049404, guid: e1b69054c69ffdd4ea4624c0655d1a08, type: 3}
+  itemIcon: {fileID: -8966515893708187581, guid: 437efdc184344bd4693c91afad4d4938, type: 3}
+  weaponWorldSprite: {fileID: -8966515893708187581, guid: 437efdc184344bd4693c91afad4d4938, type: 3}
   itemType: 1
   equipmentSlot: 1
   sellPrice: 10

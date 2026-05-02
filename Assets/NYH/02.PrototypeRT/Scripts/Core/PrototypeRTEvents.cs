@@ -16,6 +16,10 @@ namespace PrototypeRT
         public static event Action OnRunItemsChanged;
         public static event Action<float, float> OnStaminaChanged;
         public static event Action<int, int> OnPotionCountChanged;
+        public static event Action<string, float> OnInteractionProgressStarted;
+        public static event Action<float> OnInteractionProgressUpdated;
+        public static event Action OnInteractionProgressCanceled;
+        public static event Action OnInteractionProgressCompleted;
 
         // 정적 이벤트는 씬 재시작 시 구독자가 남기 쉬워서, 프로토타입 매니저가 명시적으로 초기화할 수 있게 둔다.
         public static void ClearAll()
@@ -31,6 +35,10 @@ namespace PrototypeRT
             OnRunItemsChanged = null;
             OnStaminaChanged = null;
             OnPotionCountChanged = null;
+            OnInteractionProgressStarted = null;
+            OnInteractionProgressUpdated = null;
+            OnInteractionProgressCanceled = null;
+            OnInteractionProgressCompleted = null;
         }
 
         public static void RaiseDied(Health health) => OnDied?.Invoke(health);
@@ -44,5 +52,9 @@ namespace PrototypeRT
         public static void RaiseRunItemsChanged() => OnRunItemsChanged?.Invoke();
         public static void RaiseStaminaChanged(float current, float max) => OnStaminaChanged?.Invoke(current, max);
         public static void RaisePotionCountChanged(int current, int max) => OnPotionCountChanged?.Invoke(current, max);
+        public static void RaiseInteractionProgressStarted(string label, float duration) => OnInteractionProgressStarted?.Invoke(label, duration);
+        public static void RaiseInteractionProgressUpdated(float progress) => OnInteractionProgressUpdated?.Invoke(progress);
+        public static void RaiseInteractionProgressCanceled() => OnInteractionProgressCanceled?.Invoke();
+        public static void RaiseInteractionProgressCompleted() => OnInteractionProgressCompleted?.Invoke();
     }
 }

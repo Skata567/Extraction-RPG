@@ -5,6 +5,8 @@ namespace PrototypeRT
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerMovement2D : MonoBehaviour
     {
+        [Header("이동")]
+        [Tooltip("플레이어의 초당 이동 속도입니다. 값이 클수록 빠르게 움직입니다.")]
         [SerializeField, Min(0f)] private float moveSpeed = 4f;
 
         private Rigidbody2D _rigidbody;

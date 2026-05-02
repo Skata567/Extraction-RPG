@@ -5,8 +5,15 @@ namespace PrototypeRT
 {
     public class Health : MonoBehaviour, IDamageable
     {
+        [Header("소속")]
+        [Tooltip("이 오브젝트가 어느 편인지 정합니다. 플레이어는 Player, 적은 Enemy로 설정해야 아군 공격을 막을 수 있습니다.")]
         [SerializeField] private Team team = Team.Neutral;
+
+        [Header("체력")]
+        [Tooltip("최대 체력입니다. 시작 시 현재 체력도 이 값으로 초기화됩니다.")]
         [SerializeField] private int maxHp = 10;
+
+        [Tooltip("체력이 0이 되었을 때 오브젝트를 삭제할지 정합니다. 플레이어는 재시작 흐름이 필요하면 켜두고, 특수 연출이 있으면 끌 수 있습니다.")]
         [SerializeField] private bool destroyOnDeath = true;
 
         public int CurrentHp { get; private set; }

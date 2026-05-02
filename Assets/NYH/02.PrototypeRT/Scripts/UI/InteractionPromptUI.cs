@@ -29,12 +29,18 @@ namespace PrototypeRT
 
             bool shouldShow = playerInteractor != null
                 && playerInteractor.HasInteractable
+                && !playerInteractor.IsInteractionInProgress
                 && !PrototypeDungeonManager.IsRunEnded;
 
             // 상호작용 대상의 종류별 문구는 나중에 확장하고, v0.1에서는 키 안내만 안정적으로 보여준다.
             promptText.gameObject.SetActive(shouldShow);
             if (shouldShow)
-                promptText.text = prompt;
+            {
+                if (playerInteractor.CurrentInteractable is IProgressInteractable progressInteractable)
+                    promptText.text = progressInteractable.InteractionPrompt;
+                else
+                    promptText.text = prompt;
+            }
         }
     }
 }

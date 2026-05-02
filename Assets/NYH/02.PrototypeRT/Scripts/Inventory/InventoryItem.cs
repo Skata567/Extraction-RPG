@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -29,6 +30,7 @@ namespace PrototypeRT
             if (_image == null) _image = GetComponent<Image>();
             _image.sprite = itemData.ItemIcon;
             _image.enabled = itemData.ItemIcon != null;
+            _image.raycastTarget = true;
 
             // 그리드 크기와 UI 크기를 데이터에서 계산하면, 아이템 모양을 늘려도 배치 로직은 그대로 유지된다.
             var rect = GetComponent<RectTransform>();
@@ -41,7 +43,14 @@ namespace PrototypeRT
 
             // v0.1에서는 더블클릭 장착만 지원한다. 장비 슬롯 드롭 UI는 이후 확장 지점으로 남긴다.
             if (_equipment.TryEquip(ItemData))
-                _inventoryController.TryRemoveItem(this);
+                StartCoroutine(RemoveAfterPointerEvent());
+        }
+
+        private IEnumerator RemoveAfterPointerEvent()
+        {
+            // 클릭 이벤트 처리 중 UI 오브젝트를 바로 제거하면 Unity 에디터 GUI assertion이 발생할 수 있어 한 프레임 늦춘다.
+            yield return null;
+            _inventoryController.TryRemoveItem(this);
         }
     }
 }

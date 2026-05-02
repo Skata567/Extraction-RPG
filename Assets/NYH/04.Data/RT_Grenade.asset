@@ -16,7 +16,7 @@ MonoBehaviour:
   width: 1
   height: 1
   itemIcon: {fileID: -766163406566443204, guid: 0fd8fc8a4ce60764bae3805b95cb28d6, type: 3}
-  weaponWorldSprite: {fileID: 0}
+  weaponWorldSprite: {fileID: -766163406566443204, guid: 0fd8fc8a4ce60764bae3805b95cb28d6, type: 3}
   itemType: 0
   equipmentSlot: 0
   sellPrice: 1

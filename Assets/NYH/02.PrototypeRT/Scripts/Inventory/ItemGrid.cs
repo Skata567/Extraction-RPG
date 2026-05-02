@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace PrototypeRT
@@ -8,7 +9,11 @@ namespace PrototypeRT
         public const float TileWidth = 32f;
         public const float TileHeight = 32f;
 
+        [Header("그리드 크기")]
+        [Tooltip("인벤토리의 가로 칸 수입니다. 실제 UI 너비는 이 값에 칸 너비 32픽셀을 곱해 자동으로 정해집니다.")]
         [SerializeField, Min(1)] private int gridWidth = 20;
+
+        [Tooltip("인벤토리의 세로 칸 수입니다. 실제 UI 높이는 이 값에 칸 높이 32픽셀을 곱해 자동으로 정해집니다.")]
         [SerializeField, Min(1)] private int gridHeight = 10;
 
         private InventoryItem[,] _slots;
@@ -22,8 +27,18 @@ namespace PrototypeRT
 
         private void InitGrid(int width, int height)
         {
-            _slots = new InventoryItem[width, height];
-            _rectTransform.sizeDelta = new Vector2(width * TileWidth, height * TileHeight);
+            gridWidth = Mathf.Max(1, width);
+            gridHeight = Mathf.Max(1, height);
+            _slots = new InventoryItem[gridWidth, gridHeight];
+            _rectTransform.sizeDelta = new Vector2(gridWidth * TileWidth, gridHeight * TileHeight);
+        }
+
+        public void ConfigureSize(int width, int height)
+        {
+            if (_rectTransform == null)
+                _rectTransform = GetComponent<RectTransform>();
+
+            InitGrid(width, height);
         }
 
         public InventoryItem GetItemAt(int x, int y)
@@ -69,22 +84,34 @@ namespace PrototypeRT
 
             item.OnGridPositionX = x;
             item.OnGridPositionY = y;
-            itemRect.localPosition = GetLocalPositionForItem(item, x, y);
+            itemRect.anchoredPosition = GetLocalPositionForItem(item, x, y);
         }
 
         public Vector2Int ScreenToGridPosition(Vector2 screenPos)
         {
-            Vector2 local;
-            local.x = screenPos.x - _rectTransform.position.x;
-            local.y = _rectTransform.position.y - screenPos.y;
-            return new Vector2Int((int)(local.x / TileWidth), (int)(local.y / TileHeight));
+            if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(_rectTransform, screenPos, null, out Vector2 local))
+                return new Vector2Int(-1, -1);
+
+            Vector2 topLeft = GetTopLeftLocalPosition();
+            int x = Mathf.FloorToInt((local.x - topLeft.x) / TileWidth);
+            int y = Mathf.FloorToInt((topLeft.y - local.y) / TileHeight);
+            return new Vector2Int(x, y);
         }
 
         public Vector2 GetLocalPositionForItem(InventoryItem item, int x, int y)
         {
+            Vector2 topLeft = GetTopLeftLocalPosition();
             return new Vector2(
-                x * TileWidth + TileWidth * item.ItemData.Width / 2f,
-                -(y * TileHeight + TileHeight * item.ItemData.Height / 2f));
+                topLeft.x + x * TileWidth + TileWidth * item.ItemData.Width / 2f,
+                topLeft.y - (y * TileHeight + TileHeight * item.ItemData.Height / 2f));
+        }
+
+        private Vector2 GetTopLeftLocalPosition()
+        {
+            Rect rect = _rectTransform.rect;
+            return new Vector2(
+                -rect.width * _rectTransform.pivot.x,
+                rect.height * (1f - _rectTransform.pivot.y));
         }
 
         public bool IsWithinBoundary(int x, int y, int width, int height)
@@ -110,6 +137,29 @@ namespace PrototypeRT
             if (item == null) return;
             ClearItemReferences(item);
             Destroy(item.gameObject);
+        }
+
+        public void ClearAllItems(bool destroyItems)
+        {
+            if (_slots == null) return;
+
+            if (destroyItems)
+            {
+                HashSet<InventoryItem> uniqueItems = new();
+                foreach (InventoryItem item in _slots)
+                {
+                    if (item != null)
+                        uniqueItems.Add(item);
+                }
+
+                foreach (InventoryItem item in uniqueItems)
+                {
+                    if (item != null)
+                        Destroy(item.gameObject);
+                }
+            }
+
+            _slots = new InventoryItem[gridWidth, gridHeight];
         }
 
         private bool CheckOverlap(int x, int y, int width, int height, ref InventoryItem overlap)

@@ -5,8 +5,16 @@ namespace PrototypeRT
     [RequireComponent(typeof(Collider2D))]
     public class WorldItemPickup : MonoBehaviour, IInteractable
     {
+        [Header("아이템 데이터")]
+        [Tooltip("이 픽업 오브젝트가 플레이어에게 줄 아이템입니다. 드랍으로 생성될 때는 ItemDropper가 자동으로 넣어줍니다.")]
         [SerializeField] private ItemData itemData;
+
+        [Header("월드 표시")]
+        [Tooltip("월드에 떨어진 아이템 이미지를 보여줄 SpriteRenderer입니다. 비워두면 자식 포함해서 자동으로 찾습니다.")]
         [SerializeField] private SpriteRenderer spriteRenderer;
+
+        [Header("상호작용 범위")]
+        [Tooltip("플레이어가 이 거리 안에 있을 때 E 키로 아이템을 주울 수 있습니다.")]
         [SerializeField, Min(0f)] private float pickupRadius = 1.2f;
 
         private InventoryController _inventoryController;

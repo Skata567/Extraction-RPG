@@ -6,9 +6,18 @@ namespace PrototypeRT
     [RequireComponent(typeof(Health))]
     public class RealtimeEnemyAI : MonoBehaviour
     {
+        [Header("추적 대상")]
+        [Tooltip("적이 따라갈 대상입니다. 비워두면 시작 시 Team이 Player인 Health를 자동으로 찾습니다.")]
         [SerializeField] private Transform target;
+
+        [Header("이동")]
+        [Tooltip("적이 대상을 향해 이동하는 속도입니다.")]
         [SerializeField, Min(0f)] private float moveSpeed = 2.2f;
+
+        [Tooltip("이 거리 안에 플레이어가 들어오면 추적을 시작합니다.")]
         [SerializeField, Min(0f)] private float detectionRange = 6f;
+
+        [Tooltip("이 거리보다 가까워지면 이동을 멈추고 공격 범위 안에 있다고 판단합니다.")]
         [SerializeField, Min(0f)] private float stopDistance = 0.75f;
 
         private Rigidbody2D _rigidbody;

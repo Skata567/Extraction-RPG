@@ -17,6 +17,7 @@ namespace PrototypeRT
         private PlayerMovement2D _movement;
         private Stamina _stamina;
         private Health _health;
+        private PlayerInteractor _interactor;
         private bool _isDashing;
 
         private void Awake()
@@ -25,11 +26,13 @@ namespace PrototypeRT
             _movement = GetComponent<PlayerMovement2D>();
             _stamina = GetComponent<Stamina>();
             _health = GetComponent<Health>();
+            _interactor = GetComponent<PlayerInteractor>();
         }
 
         private void Update()
         {
             if (PrototypeDungeonManager.IsRunEnded || _isDashing) return;
+            if (_interactor != null && _interactor.IsInteractionInProgress) return;
             if (Input.GetKeyDown(dashKey))
                 TryDash();
         }

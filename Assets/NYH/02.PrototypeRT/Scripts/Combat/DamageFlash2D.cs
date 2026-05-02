@@ -5,9 +5,18 @@ namespace PrototypeRT
 {
     public class DamageFlash2D : MonoBehaviour
     {
+        [Header("피격 대상")]
+        [Tooltip("피격 이벤트를 감지할 Health입니다. 비워두면 같은 오브젝트에서 자동으로 찾습니다.")]
         [SerializeField] private Health targetHealth;
+
+        [Tooltip("피격 시 색을 바꿀 SpriteRenderer입니다. 비워두면 자식 포함해서 자동으로 찾습니다.")]
         [SerializeField] private SpriteRenderer targetRenderer;
+
+        [Header("피격 표시")]
+        [Tooltip("피격 순간에 바꿀 색상입니다.")]
         [SerializeField] private Color flashColor = Color.red;
+
+        [Tooltip("피격 색상이 유지되는 시간입니다.")]
         [SerializeField, Min(0f)] private float flashDuration = 0.12f;
 
         private Color _originalColor = Color.white;

@@ -4,7 +4,12 @@ namespace PrototypeRT
 {
     public class PlayerEquipment : MonoBehaviour
     {
+        [Header("현재 장착 무기")]
+        [Tooltip("플레이어가 현재 장착한 무기 데이터입니다. 테스트용으로 미리 무기를 들고 시작하고 싶을 때만 넣습니다.")]
         [SerializeField] private ItemData equippedWeapon;
+
+        [Header("무기 표시")]
+        [Tooltip("장착한 무기 이미지를 화면에 보여줄 SpriteRenderer입니다. 플레이어 자식 오브젝트의 WeaponVisual SpriteRenderer를 넣어주세요.")]
         [SerializeField] private SpriteRenderer weaponRenderer;
 
         public ItemData EquippedWeapon => equippedWeapon;

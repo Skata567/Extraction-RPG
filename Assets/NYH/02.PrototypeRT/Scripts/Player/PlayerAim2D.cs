@@ -4,8 +4,14 @@ namespace PrototypeRT
 {
     public class PlayerAim2D : MonoBehaviour
     {
+        [Header("조준 기준")]
+        [Tooltip("마우스 위치를 월드 좌표로 변환할 카메라입니다. 비워두면 Main Camera를 자동으로 사용합니다.")]
         [SerializeField] private Camera targetCamera;
+
+        [Tooltip("조준 방향의 기준점입니다. 무기 피벗을 따로 만들었다면 연결하고, 없으면 플레이어 위치를 기준으로 조준합니다.")]
         [SerializeField] private Transform aimPivot;
+
+        [Tooltip("조준 방향에 맞춰 Aim Pivot을 회전시킬지 정합니다. 무기 표시 오브젝트를 회전시키고 싶을 때 켭니다.")]
         [SerializeField] private bool rotateAimPivot = true;
 
         public Vector2 AimDirection { get; private set; } = Vector2.right;
