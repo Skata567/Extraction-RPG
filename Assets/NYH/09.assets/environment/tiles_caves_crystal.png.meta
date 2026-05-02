@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8ff66ab5fc8c11c4cbb06ecbe398be33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7612457914624347508
+    second: tiles_caves_crystal_0
+  - first:
+      213: -6278390069493799889
+    second: tiles_caves_crystal_1
+  - first:
+      213: 8106481062683240488
+    second: tiles_caves_crystal_2
+  - first:
+      213: 7670778894430974832
+    second: tiles_caves_crystal_3
+  - first:
+      213: 7019358626603740051
+    second: tiles_caves_crystal_4
+  - first:
+      213: 3517329460938398633
+    second: tiles_caves_crystal_5
+  - first:
+      213: -3223295558860401264
+    second: tiles_caves_crystal_6
+  - first:
+      213: -8723768907963521622
+    second: tiles_caves_crystal_7
+  - first:
+      213: -1949435195799126780
+    second: tiles_caves_crystal_8
+  - first:
+      213: 8339315945844952021
+    second: tiles_caves_crystal_9
+  - first:
+      213: -665097857996078576
+    second: tiles_caves_crystal_10
+  - first:
+      213: 4467875282272733341
+    second: tiles_caves_crystal_11
+  - first:
+      213: -331219111337047336
+    second: tiles_caves_crystal_12
+  - first:
+      213: 1197481181674060227
+    second: tiles_caves_crystal_13
+  - first:
+      213: 2018498768439305762
+    second: tiles_caves_crystal_14
+  - first:
+      213: 7842678742283861632
+    second: tiles_caves_crystal_15
+  - first:
+      213: 6480412009470822744
+    second: tiles_caves_crystal_16
+  - first:
+      213: -628919717282598951
+    second: tiles_caves_crystal_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_caves_crystal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 256
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d8bcc0422e4a960800000000000000
+      internalID: 7612457914624347508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 256
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f246b720f7daed8a0800000000000000
+      internalID: -6278390069493799889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8286aa79391008070800000000000000
+      internalID: 8106481062683240488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0733f1153c4147a60800000000000000
+      internalID: 7670778894430974832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 15
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b2ac11b75c96160800000000000000
+      internalID: 7019358626603740051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abdf35528010d030800000000000000
+      internalID: 3517329460938398633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 15
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095180854cd8443d0800000000000000
+      internalID: -3223295558860401264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 15
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5ac321662fee680800000000000000
+      internalID: -8723768907963521622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dbfb9940732f4e0800000000000000
+      internalID: -1949435195799126780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 4
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbc6dd4ba33bb370800000000000000
+      internalID: 8339315945844952021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0124541a50915c6f0800000000000000
+      internalID: -665097857996078576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d984d9cb5e4110e30800000000000000
+      internalID: 4467875282272733341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da4fed19f5476bf0800000000000000
+      internalID: -331219111337047336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9b5ea4ace4e9010800000000000000
+      internalID: 1197481181674060227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22663687fe5230c10800000000000000
+      internalID: 2018498768439305762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e365983cac6dc60800000000000000
+      internalID: 7842678742283861632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8590fae436c0fe950800000000000000
+      internalID: 6480412009470822744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_crystal_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfa12b69d0a547f0800000000000000
+      internalID: -628919717282598951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tiles_caves_crystal_0: 7612457914624347508
+      tiles_caves_crystal_1: -6278390069493799889
+      tiles_caves_crystal_10: -665097857996078576
+      tiles_caves_crystal_11: 4467875282272733341
+      tiles_caves_crystal_12: -331219111337047336
+      tiles_caves_crystal_13: 1197481181674060227
+      tiles_caves_crystal_14: 2018498768439305762
+      tiles_caves_crystal_15: 7842678742283861632
+      tiles_caves_crystal_16: 6480412009470822744
+      tiles_caves_crystal_17: -628919717282598951
+      tiles_caves_crystal_2: 8106481062683240488
+      tiles_caves_crystal_3: 7670778894430974832
+      tiles_caves_crystal_4: 7019358626603740051
+      tiles_caves_crystal_5: 3517329460938398633
+      tiles_caves_crystal_6: -3223295558860401264
+      tiles_caves_crystal_7: -8723768907963521622
+      tiles_caves_crystal_8: -1949435195799126780
+      tiles_caves_crystal_9: 8339315945844952021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

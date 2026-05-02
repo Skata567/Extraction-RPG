@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 9168323e71760ec498dcc86e1c70a9ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2098515344949723368
+    second: ratking_0
+  - first:
+      213: -4896123509940733107
+    second: ratking_1
+  - first:
+      213: -4521545758169590361
+    second: ratking_2
+  - first:
+      213: -1716502654740808387
+    second: ratking_3
+  - first:
+      213: -2066529753242155972
+    second: ratking_4
+  - first:
+      213: 8997811777311813555
+    second: ratking_5
+  - first:
+      213: 3817839290811745688
+    second: ratking_6
+  - first:
+      213: -7353955713223565662
+    second: ratking_7
+  - first:
+      213: 4059213649968227642
+    second: ratking_8
+  - first:
+      213: -4870275302355863177
+    second: ratking_9
+  - first:
+      213: -8417710838508580215
+    second: ratking_10
+  - first:
+      213: 3299163216106999489
+    second: ratking_11
+  - first:
+      213: -8017445536601872140
+    second: ratking_12
+  - first:
+      213: 866795219368857527
+    second: ratking_13
+  - first:
+      213: 1787147755725530546
+    second: ratking_14
+  - first:
+      213: 628053859024483610
+    second: ratking_15
+  - first:
+      213: -5025394786001410997
+    second: ratking_16
+  - first:
+      213: -610379794616957263
+    second: ratking_17
+  - first:
+      213: 2111611860633165892
+    second: ratking_18
+  - first:
+      213: 5537190682354943655
+    second: ratking_19
+  - first:
+      213: -2437253415827931830
+    second: ratking_20
+  - first:
+      213: 3092387686379202659
+    second: ratking_21
+  - first:
+      213: 8793928246548580748
+    second: ratking_22
+  - first:
+      213: 7131249352524293229
+    second: ratking_23
+  - first:
+      213: -2711857049304137745
+    second: ratking_24
+  - first:
+      213: -235914253296880155
+    second: ratking_25
+  - first:
+      213: -4304652397455334382
+    second: ratking_26
+  - first:
+      213: -2305393188567554611
+    second: ratking_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ratking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fb094896390e2e0800000000000000
+      internalID: -2098515344949723368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 110
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b3b85cb997d0cb0800000000000000
+      internalID: -4896123509940733107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 110
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a590a0d61e3041c0800000000000000
+      internalID: -4521545758169590361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 111
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3db8201ee1cd28e0800000000000000
+      internalID: -1716502654740808387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 112
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34c93c63263253e0800000000000000
+      internalID: -2066529753242155972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 95
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf2f769326aedc70800000000000000
+      internalID: 8997811777311813555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 111
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8950d527b90bbf430800000000000000
+      internalID: 3817839290811745688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 110
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aeda53ed3081f990800000000000000
+      internalID: -7353955713223565662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35e5c9de49355830800000000000000
+      internalID: 4059213649968227642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 93
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77978b49a6e496cb0800000000000000
+      internalID: -4870275302355863177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 93
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9829db067984e2b80800000000000000
+      internalID: -8417710838508580215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 94
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cec710277bf8cd20800000000000000
+      internalID: 3299163216106999489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 77
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8edc043cf4cb090800000000000000
+      internalID: -8017445536601872140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 78
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfcc77d8a9770c00800000000000000
+      internalID: 866795219368857527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 94
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b528254a693dc810800000000000000
+      internalID: 1787147755725530546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 77
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15b7fe38ab47b800800000000000000
+      internalID: 628053859024483610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 93
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44294c5116324ab0800000000000000
+      internalID: -5025394786001410997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6c7cb8fce7787f0800000000000000
+      internalID: -610379794616957263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 76
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440aa88acc3fd4d10800000000000000
+      internalID: 2111611860633165892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 76
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a68e5b969d08dc40800000000000000
+      internalID: 5537190682354943655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 60
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df7f17ee22d2ed0800000000000000
+      internalID: -2437253415827931830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 61
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368ac62773e5aea20800000000000000
+      internalID: 3092387686379202659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 60
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c894dc3e52f4a0a70800000000000000
+      internalID: 8793928246548580748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64e1fdc08947f260800000000000000
+      internalID: 7131249352524293229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef7696b16c8d5ad0800000000000000
+      internalID: -2711857049304137745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 59
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5b9ce8c3dd9bcf0800000000000000
+      internalID: -235914253296880155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 59
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2142428937dc244c0800000000000000
+      internalID: -4304652397455334382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratking_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 59
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc563d70c199100e0800000000000000
+      internalID: -2305393188567554611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ratking_0: -2098515344949723368
+      ratking_1: -4896123509940733107
+      ratking_10: -8417710838508580215
+      ratking_11: 3299163216106999489
+      ratking_12: -8017445536601872140
+      ratking_13: 866795219368857527
+      ratking_14: 1787147755725530546
+      ratking_15: 628053859024483610
+      ratking_16: -5025394786001410997
+      ratking_17: -610379794616957263
+      ratking_18: 2111611860633165892
+      ratking_19: 5537190682354943655
+      ratking_2: -4521545758169590361
+      ratking_20: -2437253415827931830
+      ratking_21: 3092387686379202659
+      ratking_22: 8793928246548580748
+      ratking_23: 7131249352524293229
+      ratking_24: -2711857049304137745
+      ratking_25: -235914253296880155
+      ratking_26: -4304652397455334382
+      ratking_27: -2305393188567554611
+      ratking_3: -1716502654740808387
+      ratking_4: -2066529753242155972
+      ratking_5: 8997811777311813555
+      ratking_6: 3817839290811745688
+      ratking_7: -7353955713223565662
+      ratking_8: 4059213649968227642
+      ratking_9: -4870275302355863177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

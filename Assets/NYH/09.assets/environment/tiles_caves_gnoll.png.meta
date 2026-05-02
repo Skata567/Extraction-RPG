@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 77fe871f1d90a9146823de949f2d1b66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1930669693106745321
+    second: tiles_caves_gnoll_0
+  - first:
+      213: 5553380523356448935
+    second: tiles_caves_gnoll_1
+  - first:
+      213: -6768186852712004847
+    second: tiles_caves_gnoll_2
+  - first:
+      213: -3096435120836930759
+    second: tiles_caves_gnoll_3
+  - first:
+      213: -7271799859125855851
+    second: tiles_caves_gnoll_4
+  - first:
+      213: 4489788556406622504
+    second: tiles_caves_gnoll_5
+  - first:
+      213: -4760380641109408531
+    second: tiles_caves_gnoll_6
+  - first:
+      213: -3973933263493469531
+    second: tiles_caves_gnoll_7
+  - first:
+      213: -976120767358463808
+    second: tiles_caves_gnoll_8
+  - first:
+      213: -6783571766535612292
+    second: tiles_caves_gnoll_9
+  - first:
+      213: -5955016919489589711
+    second: tiles_caves_gnoll_10
+  - first:
+      213: 6097054417679766521
+    second: tiles_caves_gnoll_11
+  - first:
+      213: 5041070956923401818
+    second: tiles_caves_gnoll_12
+  - first:
+      213: 1015491951461502975
+    second: tiles_caves_gnoll_13
+  - first:
+      213: 3031078208636011100
+    second: tiles_caves_gnoll_14
+  - first:
+      213: -2614292227728644071
+    second: tiles_caves_gnoll_15
+  - first:
+      213: 5578474368651683255
+    second: tiles_caves_gnoll_16
+  - first:
+      213: 1542806154204598775
+    second: tiles_caves_gnoll_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 256
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71092cba422e435e0800000000000000
+      internalID: -1930669693106745321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 256
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8eb35b922911d40800000000000000
+      internalID: 5553380523356448935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113c1a6bae19212a0800000000000000
+      internalID: -6768186852712004847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9339878c9a04705d0800000000000000
+      internalID: -3096435120836930759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 15
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59951174e80651b90800000000000000
+      internalID: -7271799859125855851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8290b3577eeee4e30800000000000000
+      internalID: 4489788556406622504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 15
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4070b470bbfedb0800000000000000
+      internalID: -4760380641109408531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 15
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaec5c60c0c9d8c0800000000000000
+      internalID: -3973933263493469531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c097b3755f1472f0800000000000000
+      internalID: -976120767358463808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 4
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7896435b69ebd1a0800000000000000
+      internalID: -6783571766535612292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ec16aa9a78b5da0800000000000000
+      internalID: -5955016919489589711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3570670b61d9450800000000000000
+      internalID: 6097054417679766521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5635fa935b75f540800000000000000
+      internalID: 5041070956923401818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff812fac80c71e00800000000000000
+      internalID: 1015491951461502975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c524d28429d801a20800000000000000
+      internalID: 3031078208636011100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9186b2be11b28bbd0800000000000000
+      internalID: -2614292227728644071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5ea1cd1e8ba6d40800000000000000
+      internalID: 5578474368651683255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_caves_gnoll_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1d6aae506296510800000000000000
+      internalID: 1542806154204598775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tiles_caves_gnoll_0: -1930669693106745321
+      tiles_caves_gnoll_1: 5553380523356448935
+      tiles_caves_gnoll_10: -5955016919489589711
+      tiles_caves_gnoll_11: 6097054417679766521
+      tiles_caves_gnoll_12: 5041070956923401818
+      tiles_caves_gnoll_13: 1015491951461502975
+      tiles_caves_gnoll_14: 3031078208636011100
+      tiles_caves_gnoll_15: -2614292227728644071
+      tiles_caves_gnoll_16: 5578474368651683255
+      tiles_caves_gnoll_17: 1542806154204598775
+      tiles_caves_gnoll_2: -6768186852712004847
+      tiles_caves_gnoll_3: -3096435120836930759
+      tiles_caves_gnoll_4: -7271799859125855851
+      tiles_caves_gnoll_5: 4489788556406622504
+      tiles_caves_gnoll_6: -4760380641109408531
+      tiles_caves_gnoll_7: -3973933263493469531
+      tiles_caves_gnoll_8: -976120767358463808
+      tiles_caves_gnoll_9: -6783571766535612292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

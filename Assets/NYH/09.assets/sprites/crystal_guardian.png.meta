@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: b3e10d63de0c5b04481bf3de405801e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4284699388699698210
+    second: crystal_guardian_0
+  - first:
+      213: -2353882610553378955
+    second: crystal_guardian_1
+  - first:
+      213: 4701337898456809143
+    second: crystal_guardian_2
+  - first:
+      213: 4494750687134546012
+    second: crystal_guardian_3
+  - first:
+      213: -2232493577821259157
+    second: crystal_guardian_4
+  - first:
+      213: 8912352910788221684
+    second: crystal_guardian_5
+  - first:
+      213: -1605134470509849355
+    second: crystal_guardian_6
+  - first:
+      213: -7688577246639741932
+    second: crystal_guardian_7
+  - first:
+      213: -2515196382486009925
+    second: crystal_guardian_8
+  - first:
+      213: 2878521603395791644
+    second: crystal_guardian_9
+  - first:
+      213: -2739784329146348
+    second: crystal_guardian_10
+  - first:
+      213: 2385152365276159548
+    second: crystal_guardian_11
+  - first:
+      213: 6667629281314377809
+    second: crystal_guardian_12
+  - first:
+      213: -1247089756437434175
+    second: crystal_guardian_13
+  - first:
+      213: 3526447395871905006
+    second: crystal_guardian_14
+  - first:
+      213: -4137774080659204205
+    second: crystal_guardian_15
+  - first:
+      213: 5476255514993201206
+    second: crystal_guardian_16
+  - first:
+      213: -3026991198278253221
+    second: crystal_guardian_17
+  - first:
+      213: 7941029458611227403
+    second: crystal_guardian_18
+  - first:
+      213: 2907076568031937202
+    second: crystal_guardian_19
+  - first:
+      213: 4135402527362082515
+    second: crystal_guardian_20
+  - first:
+      213: -6051215918115485677
+    second: crystal_guardian_21
+  - first:
+      213: -5073163136444995364
+    second: crystal_guardian_22
+  - first:
+      213: 6436793768773273815
+    second: crystal_guardian_23
+  - first:
+      213: 635738863838019640
+    second: crystal_guardian_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crystal_guardian_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22467c8846f467b30800000000000000
+      internalID: 4284699388699698210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5772ff2bc34555fd0800000000000000
+      internalID: -2353882610553378955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be799ee8e18e3140800000000000000
+      internalID: 4701337898456809143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58f89c8fef806e30800000000000000
+      internalID: 4494750687134546012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 33
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a7f925be69401e0800000000000000
+      internalID: -2232493577821259157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa5370b0c90fab70800000000000000
+      internalID: 8912352910788221684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4968414ba69b9e0800000000000000
+      internalID: -1605134470509849355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41423e1eabfac4590800000000000000
+      internalID: -7688577246639741932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 18
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7e299573a381dd0800000000000000
+      internalID: -2515196382486009925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ba1b0b52092f720800000000000000
+      internalID: 2878521603395791644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410dc404e2446fff0800000000000000
+      internalID: -2739784329146348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ed77b6073c91120800000000000000
+      internalID: 2385152365276159548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1509cb6318d288c50800000000000000
+      internalID: 6667629281314377809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 18
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0b480597271bee0800000000000000
+      internalID: -1247089756437434175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4db0ef83570f030800000000000000
+      internalID: 3526447395871905006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 33
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3975d71856ca396c0800000000000000
+      internalID: -4137774080659204205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630917e50619ffb40800000000000000
+      internalID: 5476255514993201206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 33
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b550468fa87fdf5d0800000000000000
+      internalID: -3026991198278253221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b4f6f1834343e60800000000000000
+      internalID: 7941029458611227403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2c76c7cb2085820800000000000000
+      internalID: 2907076568031937202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 18
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d66ba630b6e36930800000000000000
+      internalID: 4135402527362082515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 18
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3188985ee23c50ca0800000000000000
+      internalID: -6051215918115485677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 18
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8e69491018899b0800000000000000
+      internalID: -5073163136444995364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8cd2044d5145950800000000000000
+      internalID: 6436793768773273815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crystal_guardian_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830c9fcd02992d800800000000000000
+      internalID: 635738863838019640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crystal_guardian_0: 4284699388699698210
+      crystal_guardian_1: -2353882610553378955
+      crystal_guardian_10: -2739784329146348
+      crystal_guardian_11: 2385152365276159548
+      crystal_guardian_12: 6667629281314377809
+      crystal_guardian_13: -1247089756437434175
+      crystal_guardian_14: 3526447395871905006
+      crystal_guardian_15: -4137774080659204205
+      crystal_guardian_16: 5476255514993201206
+      crystal_guardian_17: -3026991198278253221
+      crystal_guardian_18: 7941029458611227403
+      crystal_guardian_19: 2907076568031937202
+      crystal_guardian_2: 4701337898456809143
+      crystal_guardian_20: 4135402527362082515
+      crystal_guardian_21: -6051215918115485677
+      crystal_guardian_22: -5073163136444995364
+      crystal_guardian_23: 6436793768773273815
+      crystal_guardian_24: 635738863838019640
+      crystal_guardian_3: 4494750687134546012
+      crystal_guardian_4: -2232493577821259157
+      crystal_guardian_5: 8912352910788221684
+      crystal_guardian_6: -1605134470509849355
+      crystal_guardian_7: -7688577246639741932
+      crystal_guardian_8: -2515196382486009925
+      crystal_guardian_9: 2878521603395791644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

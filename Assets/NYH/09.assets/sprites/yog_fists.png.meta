@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: b5f1ae7ba8709044380a70f9eb9701ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8762009045147814204
+    second: yog_fists_0
+  - first:
+      213: -164585638046529294
+    second: yog_fists_1
+  - first:
+      213: -789569449577183847
+    second: yog_fists_2
+  - first:
+      213: -5451073381410278186
+    second: yog_fists_3
+  - first:
+      213: 2965390519384471703
+    second: yog_fists_4
+  - first:
+      213: 2947526355855575824
+    second: yog_fists_5
+  - first:
+      213: 8542860750293233996
+    second: yog_fists_6
+  - first:
+      213: 831867768273232787
+    second: yog_fists_7
+  - first:
+      213: -2666629616211475648
+    second: yog_fists_8
+  - first:
+      213: 6095208820906860623
+    second: yog_fists_9
+  - first:
+      213: -5706159217317338941
+    second: yog_fists_10
+  - first:
+      213: -7475865482465829663
+    second: yog_fists_11
+  - first:
+      213: -11734002382331154
+    second: yog_fists_12
+  - first:
+      213: -6224509882127930649
+    second: yog_fists_13
+  - first:
+      213: 4874844957265181172
+    second: yog_fists_14
+  - first:
+      213: -776827800194704572
+    second: yog_fists_15
+  - first:
+      213: 8771921533698990195
+    second: yog_fists_16
+  - first:
+      213: -8855881852331117185
+    second: yog_fists_17
+  - first:
+      213: 2878102093461645792
+    second: yog_fists_18
+  - first:
+      213: -6279427357712273583
+    second: yog_fists_19
+  - first:
+      213: 5704773717815471608
+    second: yog_fists_20
+  - first:
+      213: 5587598840693125472
+    second: yog_fists_21
+  - first:
+      213: 4028201699131401074
+    second: yog_fists_22
+  - first:
+      213: 4397060683560401438
+    second: yog_fists_23
+  - first:
+      213: -7262857092389284324
+    second: yog_fists_24
+  - first:
+      213: -7379839269052829090
+    second: yog_fists_25
+  - first:
+      213: -7740081228932205661
+    second: yog_fists_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yog_fists_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 19
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c674315237176680800000000000000
+      internalID: -8762009045147814204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 110
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f80b15fb3647bdf0800000000000000
+      internalID: -164585638046529294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 93
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9958378d4c2ea05f0800000000000000
+      internalID: -789569449577183847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 110
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4f37004a5e954b0800000000000000
+      internalID: -5451073381410278186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 93
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798f83057fe272920800000000000000
+      internalID: 2965390519384471703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 110
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b8fde9a97b7e820800000000000000
+      internalID: 2947526355855575824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 110
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41fad227965e8670800000000000000
+      internalID: 8542860750293233996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 25
+        width: 20
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393e50ce3536b8b00800000000000000
+      internalID: 831867768273232787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 25
+        width: 24
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043cd221e7a3efad0800000000000000
+      internalID: -2666629616211475648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 76
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f402bf9f028869450800000000000000
+      internalID: 6095208820906860623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 76
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0aaf3ac66afc0b0800000000000000
+      internalID: -5706159217317338941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 93
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec1509d3f3604890800000000000000
+      internalID: -7475865482465829663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 93
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2253cacff46dff0800000000000000
+      internalID: -11734002382331154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 59
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea2bd6bd391e99a0800000000000000
+      internalID: -6224509882127930649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 59
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f935ec19ade6a340800000000000000
+      internalID: 4874844957265181172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 76
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b1fb54b372835f0800000000000000
+      internalID: -776827800194704572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 76
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3706ab5c8202cb970800000000000000
+      internalID: 8771921533698990195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 42
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75b9f23066991580800000000000000
+      internalID: -8855881852331117185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9e61cea9211f720800000000000000
+      internalID: 2878102093461645792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 59
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fa0b6861efad8a0800000000000000
+      internalID: -6279427357712273583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 59
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd206e987d6b2f40800000000000000
+      internalID: 5704773717815471608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 25
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061f5ee8a832b8d40800000000000000
+      internalID: 5587598840693125472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 25
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2732a506a1c07e730800000000000000
+      internalID: 4028201699131401074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 42
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a3473256f750d30800000000000000
+      internalID: 4397060683560401438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 42
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16d5b964f5253b90800000000000000
+      internalID: -7262857092389284324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 25
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52b0ace84b859990800000000000000
+      internalID: -7379839269052829090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yog_fists_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 25
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3b3d88125b59490800000000000000
+      internalID: -7740081228932205661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yog_fists_0: -8762009045147814204
+      yog_fists_1: -164585638046529294
+      yog_fists_10: -5706159217317338941
+      yog_fists_11: -7475865482465829663
+      yog_fists_12: -11734002382331154
+      yog_fists_13: -6224509882127930649
+      yog_fists_14: 4874844957265181172
+      yog_fists_15: -776827800194704572
+      yog_fists_16: 8771921533698990195
+      yog_fists_17: -8855881852331117185
+      yog_fists_18: 2878102093461645792
+      yog_fists_19: -6279427357712273583
+      yog_fists_2: -789569449577183847
+      yog_fists_20: 5704773717815471608
+      yog_fists_21: 5587598840693125472
+      yog_fists_22: 4028201699131401074
+      yog_fists_23: 4397060683560401438
+      yog_fists_24: -7262857092389284324
+      yog_fists_25: -7379839269052829090
+      yog_fists_26: -7740081228932205661
+      yog_fists_3: -5451073381410278186
+      yog_fists_4: 2965390519384471703
+      yog_fists_5: 2947526355855575824
+      yog_fists_6: 8542860750293233996
+      yog_fists_7: 831867768273232787
+      yog_fists_8: -2666629616211475648
+      yog_fists_9: 6095208820906860623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

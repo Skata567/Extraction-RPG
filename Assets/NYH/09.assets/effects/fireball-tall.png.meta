@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 56fc3292d628fd6429500bf69ab85f79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1789233229452099128
+    second: fireball-tall_0
+  - first:
+      213: 649816907665572478
+    second: fireball-tall_1
+  - first:
+      213: 3868396874403842203
+    second: fireball-tall_2
+  - first:
+      213: 505494764889490399
+    second: fireball-tall_3
+  - first:
+      213: -2142670718640769139
+    second: fireball-tall_4
+  - first:
+      213: -4841091197303059684
+    second: fireball-tall_5
+  - first:
+      213: -6369470461186542363
+    second: fireball-tall_6
+  - first:
+      213: 5523170007326113736
+    second: fireball-tall_7
+  - first:
+      213: -683182025339250878
+    second: fireball-tall_8
+  - first:
+      213: -4272009507849465720
+    second: fireball-tall_9
+  - first:
+      213: 1197507551200355291
+    second: fireball-tall_10
+  - first:
+      213: 7553061640074124908
+    second: fireball-tall_11
+  - first:
+      213: -153637227758580823
+    second: fireball-tall_12
+  - first:
+      213: 3128941228186730151
+    second: fireball-tall_13
+  - first:
+      213: -7786426538718580216
+    second: fireball-tall_14
+  - first:
+      213: 3772194981599483320
+    second: fireball-tall_15
+  - first:
+      213: 5490340545325049226
+    second: fireball-tall_16
+  - first:
+      213: 3750629119432766431
+    second: fireball-tall_17
+  - first:
+      213: -5026415856525243491
+    second: fireball-tall_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireball-tall_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 390
+        width: 49
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e31d57422a4d810800000000000000
+      internalID: 1789233229452099128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 451
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72037ed80d940900800000000000000
+      internalID: 649816907665572478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 389
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98821d267e4fa530800000000000000
+      internalID: 3868396874403842203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 451
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3ce097fc0e30700800000000000000
+      internalID: 505494764889490399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 389
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8739c07554b342e0800000000000000
+      internalID: -2142670718640769139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 329
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b0b7b843df0dcb0800000000000000
+      internalID: -4841091197303059684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 451
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f1a9cc581b97a0800000000000000
+      internalID: -6369470461186542363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 55
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfb3c0dbdd36ac40800000000000000
+      internalID: 5523170007326113736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 206
+        width: 51
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247d8be4199d486f0800000000000000
+      internalID: -683182025339250878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 267
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8809a879cf5c6b4c0800000000000000
+      internalID: -4272009507849465720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 329
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3252de5c66e9010800000000000000
+      internalID: 1197507551200355291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 267
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e5f373b8dd1d860800000000000000
+      internalID: 7553061640074124908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 206
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab8c2f51cb2eddf0800000000000000
+      internalID: -153637227758580823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 145
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aef42d187b3c6b20800000000000000
+      internalID: 3128941228186730151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 145
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802310a315e01f390800000000000000
+      internalID: -7786426538718580216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 206
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b59fbd8957895430800000000000000
+      internalID: 3772194981599483320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 145
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85260c03ab913c40800000000000000
+      internalID: 5490340545325049226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 206
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3b60cff49ec0430800000000000000
+      internalID: 3750629119432766431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireball-tall_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 145
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b0c6ad8659e3ab0800000000000000
+      internalID: -5026415856525243491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fireball-tall_0: 1789233229452099128
+      fireball-tall_1: 649816907665572478
+      fireball-tall_10: 1197507551200355291
+      fireball-tall_11: 7553061640074124908
+      fireball-tall_12: -153637227758580823
+      fireball-tall_13: 3128941228186730151
+      fireball-tall_14: -7786426538718580216
+      fireball-tall_15: 3772194981599483320
+      fireball-tall_16: 5490340545325049226
+      fireball-tall_17: 3750629119432766431
+      fireball-tall_18: -5026415856525243491
+      fireball-tall_2: 3868396874403842203
+      fireball-tall_3: 505494764889490399
+      fireball-tall_4: -2142670718640769139
+      fireball-tall_5: -4841091197303059684
+      fireball-tall_6: -6369470461186542363
+      fireball-tall_7: 5523170007326113736
+      fireball-tall_8: -683182025339250878
+      fireball-tall_9: -4272009507849465720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
